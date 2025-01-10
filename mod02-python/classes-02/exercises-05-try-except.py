@@ -5,6 +5,7 @@
 
 exit_program = False
 while (not exit_program):
+    print("___________________________________________________")
     try:
         temperature_celsius = float(input("What is the temperature you want to convert? "))
         if(temperature_celsius < -273.15):
