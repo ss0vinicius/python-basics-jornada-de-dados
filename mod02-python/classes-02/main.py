@@ -47,3 +47,21 @@ if (3 and 6 > 2):
 while list_model:
     print(list_model.pop())
     print(f"New list model: {list_model}")
+
+try:
+    number = int(input("Write a number "))
+    division = 10 / number
+    print(division)
+except ZeroDivisionError as zero_error:
+    print(zero_error)
+else: 
+    print("No error")
+finally:
+    print("End of the program")
+
+
+numero = int(input("write an number: "))
+if isinstance(number, int): # verify if the variable is an integer
+    print("This is an integer")
+else:
+    print("This is not an integer")
